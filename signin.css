@@ -1,0 +1,168 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+  }
+  
+  body {
+    background-color:burlywood ;
+   
+  }
+
+  
+  
+  .reg {
+    position:absolute;
+    left:35%;
+    top:20%;
+    background-color:#f5f6f9;
+    border-radius:10px;
+    padding:15px 15px
+    
+  }
+  
+  
+  .reg p{
+    font-size:18px;
+    margin:3px 0;
+    color: black;
+    
+  }
+  
+  .reg input{
+    font-size:14px;
+    padding:10px 0;
+    width:100%;
+    background-color:#e7ebf3;
+    border:0;
+    outline:none;
+    border-radius:6px 
+  }
+  
+  .reg h1{
+    margin:20px 0;
+    
+  }
+  
+  .reg button{
+    margin:17px 0;
+    font-size:15px;
+    font-weight:bold;
+    padding: 8px 10px;
+    width:100%;
+    font-family:sans-serif;
+    background-color:black;
+    border:none;
+    border-radius:6px;
+    color:white;
+    text-align:center;
+  }
+  
+  .reg button:hover{
+    background-color:greenyellow;
+    color:#1b1f27;}
+  
+ 
+
+  .alert{
+    text-align: center;
+    background-color: #c7b7b7;
+    border-radius: 6px;
+    padding: 5px 8px;
+    font-weight: 500px;
+    display: none;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(48, 42, 42);
+    color: white;
+    padding-bottom: 15px;
+}
+
+.nav   img{
+    width: 8%;
+    background-color: rgb(48, 42, 42);
+    margin-left: 32px;
+
+}
+
+section{
+    background-image: "https://media.istockphoto.com/photos/taxi-on-city-street-picture-id1062201224?k=6&m=1062201224&s=170667a&w=0&h=TyBxMFSATLMfp6bwtjPtjuU3SH5cU4Vb-UMi1GZipfw=";
+}
+
+.nav .left{
+    display: flex;
+
+     
+}
+
+.nav .left ul li{
+    
+    display: inline-block;
+    margin: 0 10px; 
+    position: relative;
+}
+
+.nav .left ul li a{
+    display: inline-block;
+    text-decoration:none;
+    font-size: 25px;
+    font-family:'Poppins', sans-serif;
+    color: #fff;
+    margin-top: 17px;
+}
+
+.nav .left ul li::after{
+    content: '';
+    height: 2.5px;
+    width: 0%;
+    background:black;
+    position: absolute;
+    display: block;
+    transition: 0.5 ;
+  
+}
+
+.nav .left ul li:hover::after{
+    width: 100%;
+}
+button{
+    background: rgba(167, 113, 44, 0.699);
+    width: 180px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 13px 50px;
+    margin-top: 9px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background:transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+   
+
+
+.plant{
+	flex: 0 0 70%; 
+	background-color: burlywood; 
+	padding-left: 510px;
+}

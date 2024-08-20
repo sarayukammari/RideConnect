@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+
+
+	<div class="nav">
+         
+        <div class="left">
+            
+            <ul>
+                <li><a href="index.html"><p>Home</p></a></li>
+            <li><a href="aboutus1.html"><p>About us</p></a></li>
+            <li><a href="carRental.html"><p>Car Rental</p></a></li>
+            <li><a href="carpooling.html"><p>Car Pooling</p></a></li>
+            <li><a href="newspage.html"><p>Newsroom</p></a></li>
+            
+            
+            </ul>
+        </div>
+        
+        <div   class="right">
+            
+            <button onclick="openNewTab()">Login</button>
+            <button onclick="openNewTab1()">Signin</button>
+
+
+        </div>  
+	</div> 
+
+
+
+
+
+<div class="bigcont">
+	<div class="container">
+		<h1 class="label">User Login</h1>
+		<form class="login_form" action="" id="rideconnect" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			<input autocomplete="off" type="text" id="email" name="email">
+			<div id="email_error">Please fill up your Email or Phone</div>
+			<div class="font font2">Password</div>
+			<input type="password" id="password" name="password">
+			<div id="pass_error">Please fill up your Password</div>
+			<button type="submit">Login</button>
+		</form>
+	</div>	
+</div>
+	<script>
+
+
+
+function openNewTab() {
+                // Specify the URL for the new tab
+                var newTabUrl = 'loginPg.html';
+        
+                // Open a new tab with the specified URL
+                window.open(newTabUrl, '_blank');
+            }
+function openNewTab1() {
+                // Specify the URL for the new tab
+                var newTabUrl = 'signin.html';
+        
+                // Open a new tab with the specified URL
+                window.open(newTabUrl, '_blank');
+            }
+
+
+
+
+
+	</script>
+
+
+	
+
+
+
+
+
+</body>
+</html>
